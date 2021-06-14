@@ -8,7 +8,7 @@ https://github.com/Luca96/bdp2-midterm.git
 cd bdp2-midterm
 
 # build the Docker image
-docker build -t midterm .
+docker build -t midterm docker/
 
 # execute it
 docker run --rm -p 8888:8888 midterm
